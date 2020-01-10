@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500,600|Roboto&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #606060;
+}
+a{
+	color: #0e3ec7;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+p{
+	font-size: 14px;
+	line-height: 18px;
+}
+.header{
+	background-color: #fff;
+	border-top: 4px solid #0031c9;
+	padding: 7px 0;
+}
+/*input::placeholder{
+	color: #999;
+}*/
+
+
+/* MENU */
+.menu{
+	display: flex;
+}
+.nowrap {
+	flex-wrap: nowrap;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+.wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+.space-between {
+	justify-content: space-between;
+}
+.grow1{
+	flex-grow: 1;
+}
+.menu a{
+	color: #1b59cf;
+	font-family: 'Dosis', sans-serif;
+	font-size: 12px;
+	line-height: 27px;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.3s color;
+}
+.menu a:hover{
+	color: #01c103;
+	text-decoration: none;
+	transition: 0.3s color;
+}
+
+
+/* SLIDER */
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Dosis', sans-serif;
+}
+
+
+/* notícias */
+
+
+
+/* trecho final da home */
+
+
+
+/* rodapé */
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.header{
+		padding: 20px 0 25px;
+	}
+	.menu{
+		padding: 15px 0;
+	}
+	.menu a{
+		font-family: 'Dosis', sans-serif;
+		font-size: 12px;
+		font-weight: 400;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.menu a{
+		font-size: 15px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.header{
+		padding: 30px 0 35px;
+	}
+}
