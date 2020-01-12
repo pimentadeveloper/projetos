@@ -5,11 +5,8 @@ owl.owlCarousel({
     autoplay:true,
     autoplayTimeout:5000,
     smartSpeed:1500,
-    autoplayHoverPause:true/*,
-    nav:true*/
+    autoplayHoverPause:true
 });
-
-$(".owl-nav").addClass("container");
 
 $("#btn-collapse").click(function() {
     if ($(this).hasClass('collapsed')) {
