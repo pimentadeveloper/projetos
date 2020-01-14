@@ -3,7 +3,7 @@ owl.owlCarousel({
     items:1,
     loop:true,
     autoplay:true,
-    autoplayTimeout:5000,
+    autoplayTimeout:7500,
     smartSpeed:1500,
     autoplayHoverPause:true
 });
@@ -16,7 +16,7 @@ $("#btn-collapse").click(function() {
     }
 });
 
-$('#click_advance').click(function() {
-    $('#display_advance').toggle(300);
-    $("svg", this).toggleClass("fa-arrow-down fa-arrow-up");
+$('#comunicados-titulo').click(function() {
+    $('#comunicados-corpo').slideToggle(300);
+    $("svg", this).toggleClass("fa-arrow-up fa-arrow-down");
 });
