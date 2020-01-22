@@ -220,7 +220,49 @@ h3{
 
 
 /* rodapé */
-
+section.rodape{
+	background: rgba(0,39,156,1);
+	background: -moz-linear-gradient(top, rgba(0,39,156,1) 0%, rgba(0,50,199,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,39,156,1)), color-stop(100%, rgba(0,50,199,1)));
+	background: -webkit-linear-gradient(top, rgba(0,39,156,1) 0%, rgba(0,50,199,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,39,156,1) 0%, rgba(0,50,199,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,39,156,1) 0%, rgba(0,50,199,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,39,156,1) 0%, rgba(0,50,199,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00279c', endColorstr='#0032c7', GradientType=0 );
+	padding-top: 40px;
+	padding-bottom: 50px;
+	max-height: 380px;
+}
+section.rodape .logo-secraso{
+	margin-bottom: 15px;
+}
+section.rodape p,
+section.rodape h3,
+section.rodape li a{
+	color: #fff;
+}
+section.rodape ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+section.rodape li{
+	float: left;
+	width: 262px;
+	padding: 0 15px;
+}
+section.rodape li:last-child{
+	float: none;
+}
+section.rodape li ul li{
+	float: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 0;
+}
+section.rodape h3{
+	margin: 0;
+}
 
 
 
