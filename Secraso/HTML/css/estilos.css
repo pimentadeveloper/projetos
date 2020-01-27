@@ -246,11 +246,36 @@ section.noticias .titulo-noticia{
 /* informativo */
 section.informativo{
 	background-color: #ededed;
+	padding-top: 45px;
+	padding-bottom: 40px;
+}
+section.informativo h2{
+	font-size: 36px;
+	margin-bottom: 7px;
+}
+section.informativo h3{
+	font-size: 21px;
+	color: #000;
+	margin-bottom: 10px;
 }
 
 
 
-/* trecho final da home */
+/* outros destaques */
+section.outros-destaques{
+	padding-top: 70px;
+	padding-bottom: 90px;
+}
+section.outros-destaques img{
+	margin-bottom: 23px;
+}
+section.outros-destaques h2{
+	margin-bottom: 7px;
+}
+section.outros-destaques p{
+	font-size: 15px;
+	line-height: 24px;
+}
 
 
 
