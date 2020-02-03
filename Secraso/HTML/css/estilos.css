@@ -49,6 +49,11 @@ p{
 .busca .botao-buscar svg{
 	color: #fff;
 }
+.sombra{
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+}
 
 
 /* MENU */
@@ -139,9 +144,6 @@ p{
 	margin: 30px 0 0;
 	padding: 15px;
 	cursor: pointer;
-	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
-	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
-	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
 }
 .slider .comunicados h2 svg{
 	float: right;
@@ -156,9 +158,6 @@ p{
 	background-color: #fff;
 	padding: 15px;
 	display: none;
-	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
-	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
-	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
 }
 .slider .comunicados #comunicados-corpo div{
 	max-height: 330px;
@@ -230,6 +229,9 @@ section.noticias h2{
 	margin-top: 7px;
 	padding-top: 10px;
 }
+.veja-mais{
+	font-size: 13px;
+}
 section.noticias .data{
 	font-size: 12px;
 	color: #969696;
@@ -237,8 +239,16 @@ section.noticias .data{
 }
 section.noticias .titulo-noticia{
 	font-size: 24px;
-	color: #000;
 	margin-bottom: 5px;
+}
+section.noticias .titulo-noticia a{
+	color: #000;
+	transition: 0.3s color;
+}
+section.noticias .titulo-noticia a:hover{
+	color: #01c103;
+	text-decoration: none;
+	transition: 0.3s color;
 }
 
 
@@ -276,6 +286,26 @@ section.outros-destaques p{
 	font-size: 15px;
 	line-height: 24px;
 }
+.botao-destaque{
+	color: #fff;
+	background-color: #00ae02;
+	font-family: 'Dosis';
+	font-size: 18px;
+	font-weight: 600;
+	padding: 10px 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 10px;
+	transition: 0.3s background-color;
+}
+.botao-destaque:hover{
+	text-decoration: none;
+	background-color: #0e3ec7;
+	color: #fff;
+	transition: 0.3s background-color;
+}
 
 
 
@@ -303,7 +333,7 @@ section.rodape li a{
 }
 section.rodape ul{
 	list-style: none;
-	margin: 0;
+	margin: 0 0 10px;
 	padding: 0;
 }
 section.rodape li{
@@ -325,6 +355,7 @@ section.rodape h3{
 section.rodape p{
 	font-size: 12px;
 	text-transform: uppercase;
+	max-width: 450px;
 }
 
 
