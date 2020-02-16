@@ -118,7 +118,7 @@ p{
 	color: #fff;
 	font-size: 16px;
 	line-height: 21px;
-	width: 500px;
+	width: 100%;
 	margin-bottom: 45px;
 }
 .slider .comunicados{
@@ -398,9 +398,6 @@ section.rodape p{
 	.busca .input{
 		width: 75px;
 	}
-	.slider p.descricao-slide{
-		margin-bottom: 17px;
-	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -411,6 +408,10 @@ section.rodape p{
 	.header .logo-secraso{
 		width: auto;
 		height: auto;
+	}
+	.slider p.descricao-slide{
+		margin-bottom: 17px;
+		width: 420px;
 	}
 	.menu{
 		margin-bottom: 15px;
@@ -424,6 +425,10 @@ section.rodape p{
 @media (min-width: 1200px) {
 	.header{
 		padding: 40px 0;
+	}
+	.slider p.descricao-slide{
+		margin-bottom: 17px;
+		width: 500px;
 	}
 	.menu{
 		margin-bottom: 25px;
