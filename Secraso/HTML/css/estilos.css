@@ -31,12 +31,12 @@ p{
 	margin-bottom: 10px;
 }
 .busca{
-	padding: 10px 0 0;
+	margin: 10px 0 0;
 }
 .busca .input{
 	border: none;
 	border-bottom: 1px solid #b2b2b2;
-	width: 65px;
+	width: 67%;
 	font-size: 16px;
 	font-family: 'Dosis';
 }
@@ -366,6 +366,10 @@ section.rodape p{
 	.header{
 		padding: 20px 0 25px;
 	}
+	.busca .botao-buscar{
+		width: 30px;
+		height: 30px;
+	}
 	.menu{
 		display: flex;
 		padding: 0;
@@ -395,8 +399,11 @@ section.rodape p{
 		text-decoration: none;
 		text-transform: uppercase;
 	}
+	.busca{
+		margin-top: 33px;
+	}
 	.busca .input{
-		width: 75px;
+		width: 250px;
 	}
 }
 
@@ -418,6 +425,9 @@ section.rodape p{
 	}
 	.menu a{
 		font-size: 17px;
+	}
+	.busca{
+		margin-top: 41px;
 	}
 }
 
